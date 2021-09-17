@@ -5,7 +5,8 @@ name: main
 <style></style>
 
 <hr>
-
+???
+binary feedback on compiling success
 ---
 template: main
 
@@ -38,6 +39,7 @@ Your password is currently __terrible__. Once you have completed the steps on a 
      - `username@cs-nfs:~$`
 ???
 students WILL complain about the cursor not moving.
+seniors will get the ssh key error, just have them remove .ssh/known_hosts file
 --
 4. Change your password using the following command:
    * `$ yppasswd`
@@ -60,20 +62,3 @@ All work for this class will be submitted using submodules on github. Think of a
   3. Each student/group will clone the main work repo, and then link their own repo as a submodule.
   4. Each student/group will get rid of their local copy of the main repo.
   5. Each student/group will work on their assignment in the repo created in step 1.
-
----
-template: main
-
-### Submodule Setup
-
-Follow along with these steps:
-
-  1. Log into GitHub in a browser and create a new repository. Don't forget to include a README.md file.
-  2. Clone that repo on your computer.
-
---
-  3. __Clone the main work repo:__
-     * `$ git clone git@github.com:mks65/01_start.git`
---
-  4. __Change into the correct directory and add your repo as a submodule__
-     - `git submodule add -b <BRANCH> <URL TO YOUR REPOSITORY> <required submodule directory name>`
