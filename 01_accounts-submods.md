@@ -61,4 +61,4 @@ All work for this class will be submitted using submodules on github. Think of a
     * This should not live in the main work repo.
   3. Each student/group will clone the main work repo, and then link their own repo as a submodule.
   4. Each student/group will get rid of their local copy of the main repo.
-  5. Each student/group will work on their assignment in the repo created in step 1.
+  5. Each student/group will work on their assignment in the repo created in step 2.
