@@ -82,3 +82,23 @@ template: main
  |pointer| `%p`|
 
  \* `%0.xf` or `%0.xlf` will print `x` significant digits after the floating point
+
+ ---
+
+ #### Variables and Types
+
+* All C primitives are numeric.
+
+* The only differences are floating point vs. integer and size of variable in memory.
+  * Size can be platform dependent
+  * `sizeof(type)` can be used to find the size in bytes (`stdlib.h`)
+
+| Type | Size (bytes) | Range |
+|------|------|-------|
+|`char`   | 1  | -128 --> 127  |
+|`short`   | 2  | -32,768 —-> 32,767  |
+|`int`   | 4  | -2<sup>31</sup> --> 2<sup>31</sup>-1   |
+|`long`   | 8  | -2<sup>63</sup> --> 2<sup>63</sup>-1   |
+--
+|`float`   | 4  | 7 digits of precision  |
+|`double`   | 8  | 14 digits of precision  |
