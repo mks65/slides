@@ -83,15 +83,15 @@ template: main
 
  \* `%0.xf` or `%0.xlf` will print `x` significant digits after the floating point
 
- ---
+---
 
- #### Variables and Types
+#### Variables and Types
 
 * All C primitives are numeric.
 
 * The only differences are floating point vs. integer and size of variable in memory.
-  * Size can be platform dependent
-  * `sizeof(type)` can be used to find the size in bytes (`stdlib.h`)
+* Size can be platform dependent
+* `sizeof(type)` can be used to find the size in bytes (`stdlib.h`)
 
 | Type | Size (bytes) | Range |
 |------|------|-------|
@@ -102,3 +102,15 @@ template: main
 --
 |`float`   | 4  | 7 digits of precision  |
 |`double`   | 8  | 14 digits of precision  |
+
+--
+
+* Variables can be declared as `unsigned`. Unsigned variables do not use a bit to store the sign of the number, making the lower bound 0 and increasing the upper bound.
+
+--
+
+- All variables must be declared before being used.
+
+--
+
+- Variables are not given initial values.
