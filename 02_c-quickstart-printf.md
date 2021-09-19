@@ -14,8 +14,6 @@ h4 {font-size: 1.5em}
 </style>
 
 <hr>
-???
-binary feedback on compiling success
 ---
 template: main
 
