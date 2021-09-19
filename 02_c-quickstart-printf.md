@@ -85,11 +85,10 @@ template: main
 
 #### Variables and Types
 
-* All C primitives are numeric.
+* All C primitives are numeric. The only differences are floating point vs. integer and size of variable in memory.
 
-* The only differences are floating point vs. integer and size of variable in memory.
 * Size can be platform dependent
-* `sizeof(type)` can be used to find the size in bytes (`stdlib.h`)
+  * `sizeof(type)` can be used to find the size in bytes (`stdlib.h`)
 
 | Type | Size (bytes) | Range |
 |------|------|-------|
@@ -112,4 +111,4 @@ template: main
 
 --
 
-- Variables are not given initial values.
+- __Variables are not given initial values.__
