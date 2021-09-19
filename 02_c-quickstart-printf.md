@@ -4,7 +4,10 @@ name: main
 
 <style>
 .aim {font-size: .75em}
-.remark-inline-code { background-color: gray }
+.remark-inline-code {
+  background-color: lightgray;
+  border-radius: 3px;
+}
 h4 {font-size: 1.5em}
 </style>
 
