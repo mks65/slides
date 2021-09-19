@@ -97,6 +97,7 @@ template: main
 |`short`   | 2  | -32,768 —-> 32,767  |
 |`int`   | 4  | -2<sup>31</sup> --> 2<sup>31</sup>-1   |
 |`long`   | 8  | -2<sup>63</sup> --> 2<sup>63</sup>-1   |
+
 --
 |`float`   | 4  | 7 digits of precision  |
 |`double`   | 8  | 14 digits of precision  |
