@@ -54,15 +54,21 @@ template: main
   - Sends `string` to standard out.
 * The first argument must be a literal string enclosed by `"`.
 
-* `string` can contain special placeholder characters that are used to insert other values into the output.
-  * `%d` is the placeholder to display a value as an `int`.
-  * `%lf` is the placeholder to display a value as a `double`.
+--
 
-* There are other placeholder characters that we will see later on.
+* `string` can contain special placeholder characters that are used to insert other values into the output.
+
+--
+
 * If placeholder characters are used, then they will be replaced by the arguments following the string when `printf` is executed.
+
+--
+
 * The value arguments can be either variables or literal values.
-- example: `printf(“these are numbers: %d %lf\n”, 3, 845.273);` would display: `these are numbers: 3 845.273`
+  - example: `printf(“these are numbers: %d %lf\n”, 3, 845.273);` would display: `these are numbers: 3 845.273`
+
 ---
+
 #### `printf` Formatting Characters
 
  | Type | Placeholder |
