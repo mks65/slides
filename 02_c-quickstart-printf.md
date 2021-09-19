@@ -63,15 +63,16 @@ template: main
 * The value arguments can be either variables or literal values.
 - example: `printf(“these are numbers: %d %lf\n”, 3, 845.273);` would display: `these are numbers: 3 845.273`
 ---
+#### `printf` Formatting Characters
 
-   * As an exercise, add some `printf` statements to your existing example program. Try declaring variables and printing their values. Once you get the hang of it, try using the wrong formatting characters, see what happens...
-   * | Type | Placeholder |
-     |------|-------------|
-     |`int` | `%d`        |
-     |`long`| `%ld`       |
-     |`float`| `%f`*       |
-     |`double`| `%lf`*     |
-     |`char`| `%c`         |
-     |string| `%s` |
-     |pointer| `%p`|
-   * \* `%0.xf` or `%0.xlf` will print `x` significant digits after the floating point
+ | Type | Placeholder |
+ |------|-------------|
+ |`int` | `%d`        |
+ |`long`| `%ld`       |
+ |`float`| `%f`*       |
+ |`double`| `%lf`*     |
+ |`char`| `%c`         |
+ |string| `%s` |
+ |pointer| `%p`|
+
+ \* `%0.xf` or `%0.xlf` will print `x` significant digits after the floating point
