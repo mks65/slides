@@ -81,6 +81,8 @@ template: main
 
  \* `%0.xf` or `%0.xlf` will print `x` significant digits after the floating point
 
+`printf` will attempt to interpret any value with the provided formatting character, even if they do not match.
+
 ---
 
 #### Variables and Types
