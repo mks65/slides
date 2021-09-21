@@ -1,19 +1,23 @@
 name: main
 
 ### .aim[Systems: Variables are the Spice of Life]
-
 <style>
-.aim {font-size: .75em}
+.aim {
+font-size: .75em;
+border-bottom: 1px solid lightgray;
+margin: 1px;
+}
 .remark-inline-code {
   background-color: lightgray;
   border-radius: 3px;
   padding-left: 2px;
   padding-right: 2px;
 }
-h4 {font-size: 1.5em}
+h4 {
+font-size: 1.5em;
+margin: 1px;
+}
 </style>
-
-<hr>
 ---
 template: main
 
@@ -29,10 +33,8 @@ template: main
 template: main
 
 #### Primitive Types
-
 * All C primitives are numeric. The only differences are floating point vs. integer and size of variable in memory.
-* Size can be platform dependent
-  * `sizeof(type)` can be used to find the size in bytes (`stdlib.h`)
+* Size can be platform dependent.  `sizeof(type)` can be used to find the size in bytes (`stdlib.h`)
 
 | Type | Size (bytes) | Range |
 |------|------|-------|
@@ -49,13 +51,13 @@ template: main
 
 * `char` is an integer type, but can be used to refer to character literals as well.
   * `char c = 97;` and `char c = 'a';` are both equally valid statements.
-  * This also means you can perform arithmetic operations on chars natively.
 
 --
-* Note there is no boolean type. In c, any number is a boolean value:
+* There is no boolean type. In c, any number is a boolean value:
   * __0 is false__
   * __All other numeric values are true__
-
+???
+you can do arithmetic on char types
 ---
 template: main
 
@@ -87,18 +89,13 @@ template: main
 
 --
 
-   * Upon first glance, maybe it seems fine, maybe you notice the incredibly common programming typo.
-
---
-
-   * javac would never let this fly. Then again, javac assumes you are an idiot and that you have no idea how to program.
-
---
-
-   * gcc thinks this is totally cool. gcc thinks you are a master programmer (perhaps even a 1337 hax0r), and you meant to do this.
---
-
    * C interprets this statement as follows:
-     1. Assign variable x the value 0.
-     2. The assignment operator returns the value assigned, so the statement will return 0.
-     3. 0 is false, so the if statement will fail.
+	 1. Assign variable x the value 0.
+	 
+--
+
+	 2. The assignment operator returns the value assigned, so the statement will return 0.
+
+--
+
+	 3. 0 is false, so the if statement will fail.
