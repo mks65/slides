@@ -1,6 +1,6 @@
 name: main
 
-### .aim[Systems: Variables are the Spice of Life]
+### .aim[Systems: Gettin' Funky]
 <style>
 .aim {
 font-size: .75em;
@@ -29,35 +29,6 @@ template: main
 
 * Then print out the values using incorrect formatting characters.
 
----
-template: main
-
-#### Primitive Types
-* All C primitives are numeric. The only differences are floating point vs. integer and size of variable in memory.
-* Size can be platform dependent.  `sizeof(type)` can be used to find the size in bytes (`stdlib.h`)
-
-| Type | Size (bytes) | Range |
-|------|------|-------|
-|`char`   | 1  | -128 --> 127  |
-|`short`   | 2  | -32,768 —-> 32,767  |
-|`int`   | 4  | -2<sup>31</sup> --> 2<sup>31</sup>-1   |
-|`long`   | 8  | -2<sup>63</sup> --> 2<sup>63</sup>-1   |
-
---
-|`float`   | 4  | 7 digits of precision  |
-|`double`   | 8  | 14 digits of precision  |
-
---
-
-* `char` is an integer type, but can be used to refer to character literals as well.
-  * `char c = 97;` and `char c = 'a';` are both equally valid statements.
-
---
-* There is no boolean type. In c, any number is a boolean value:
-  * __0 is false__
-  * __All other numeric values are true__
-???
-you can do arithmetic on char types
 ---
 template: main
 
@@ -91,7 +62,7 @@ template: main
 
    * C interprets this statement as follows:
 	 1. Assign variable x the value 0.
-	 
+
 --
 
 	 2. The assignment operator returns the value assigned, so the statement will return 0.
@@ -99,3 +70,12 @@ template: main
 --
 
 	 3. 0 is false, so the if statement will fail.
+
+---
+template: main
+
+### Declaring and Defining Functions
+  * Function and variable names are both examples or _identifiers_.
+  * All identifiers must be declared before they can be used.
+  * A function declaration provides its return type, name and parameters. This is also known as a function _header_.
+  * `double dylan(int jack);`
