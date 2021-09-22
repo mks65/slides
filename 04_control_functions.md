@@ -21,20 +21,10 @@ margin: 1px;
 ---
 template: main
 
-#### Do Now: Try this in a C program:
-
-* Declare and initialize an `int`, `float` and `char`.
-
-* Print out the values of those variables correctly.
-
-* Then print out the values using incorrect formatting characters.
-
----
-template: main
-
 #### Variables
 * Variables must be declared before they are used.
    * You can assign a variable a value at declaration (i.e. `int x = 10;`)
+
 --
 
 * _THERE IS NO DEFAULT VALUE FOR VARIABLES_
