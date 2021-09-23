@@ -44,6 +44,8 @@ template: main
 
 - A few basic preprocessor directives
   - `#include`: Adds the entire text of the included file.
+
+--
   - `#define`
     - Usage: `#define TEXT REPLACEMENT`
     - Will replace every instance of `TEXT` with the provided `REPLACEMENT`.
@@ -54,14 +56,14 @@ template: main
   //later on
   printf("%s, %f\n", MESSAGE, PI);
   ```
-  would turn into `printf("%s, %f\n", "Hello!", 31.14159);`.
+  would turn into `printf("%s, %f\n", "Hello!", 3.14159);`.
 ---
 template: main
 
 - You can also use `#define` to declare function-like macros.
 
   ```c
-  #define MAX(a, b) a > b ? a : b`
+  #define MAX(a, b) a > b ? a : b
   //late on
   MAX(x, y)
   ```
