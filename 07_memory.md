@@ -1,6 +1,6 @@
 name: main
 
-### .aim[Systems: ]
+### .aim[Systems: Making Memories]
 <style>
 .aim {
 font-size: .75em;
