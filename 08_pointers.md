@@ -91,7 +91,7 @@ template: main
 
 --
 
-* You can get the address of any variable using the __address of operator__: `&`;
+* You can get the address of any variable using the __address of operator__: `&`
 
 ???
 * For example, if your computer has 4GB of RAM, then in theory memory addresses would go from 1 to ~32,000,000,000.
