@@ -100,7 +100,7 @@ template: main
 --
 
   * `sizeof(ray)` would return `20`.
-  * `sizeof(ray) / sizeof(float)` would return `4`. It is more standard in C _not_ to use this, instead using other constants/variables to keep track of array sizes. Since array sizes must be set at compile time, you're more likely to see something like this:
+  * `sizeof(ray) / sizeof(float)` would return `5`. It is more standard in C _not_ to use this, instead using other constants/variables to keep track of array sizes. Since array sizes must be set at compile time, you're more likely to see something like this:
  ```C
  int ARR_SIZE = 10;
  double trouble[ ARR_SIZE ];
