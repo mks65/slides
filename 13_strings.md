@@ -64,7 +64,7 @@ template: main
 
 * `char s[256];`
    * Declares a mutable array of 256 bytes.
-   * No speciic characters are saved to memory.
+   * No specific characters are saved to memory.
    * No guarantee of a NULL character at any position.
 
 --
