@@ -81,7 +81,7 @@ template: main
 
 * After creating a prototye for a struct, you can declare new variables of that type like so:
  * `struct foo s;`
- *You still must include the word `struct`.
+ * You still must include the word `struct`.
 
 --
 
@@ -123,7 +123,7 @@ template: main
 
 --
 
- * This means that `*p.x` is the same as `*(p.x)` which is almost certainly __NOT__what you want. (This will look for x inside p and de-reference that result).
+ * This means that `*p.x` is the same as `*(p.x)` which is almost certainly __NOT__ what you want. (This will look for x inside p and de-reference that result).
 
 --
 
