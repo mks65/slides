@@ -48,8 +48,8 @@ template: main
 --
 
 - Permissions can be represented as 3-digit binary #s, or 1-digit octal #s
-  - 100 <==> 4 => read only
-  - 111 <==> 7 => read, write, execute
+  - 100 <==> 04 => read only
+  - 111 <==> 07 => read, write, execute
 
 --
 
