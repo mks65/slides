@@ -27,7 +27,7 @@ template: main
 
 * Famously, in *nix operating systems (which includes macOS), "Everything is a File".
 
-> The whole point with "everything is a file" is not that you have some random filename (indeed, sockets and pipes show that "file" and "filename" have nothing to do with each other), but the fact that you can use common tools to operate on different things. -Linus Torvalds
+        The whole point with "everything is a file" is not that you have some random filename (indeed, sockets and pipes show that "file" and "filename" have nothing to do with each other), but the fact that you can use common tools to operate on different things. -Linus Torvalds
 
 --
 
