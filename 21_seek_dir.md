@@ -45,24 +45,24 @@ template: main
 
 --
 
-  - `stat( path, stat_buffer )`
-    - `stat_buffer`
-      - Must be a pointer to a `struct stat`
-      - All the file information gets put into the stat buffer.
+- `stat( path, stat_buffer )`
+  - `stat_buffer`
+    - Must be a pointer to a `struct stat`
+    - All the file information gets put into the stat buffer.
 
 --
 
-      - Some of the fields in struct stat:
-        - `st_size`: file size in bytes
-        - `st_uid, st_gid`: user id, group id
-        - `st_mode`: file permissions
-        - `st_atime, st_mtime`: last access, last modification
+  - Some of the fields in struct stat:
+    - `st_size`: file size in bytes
+    - `st_uid, st_gid`: user id, group id
+    - `st_mode`: file permissions
+    - `st_atime, st_mtime`: last access, last modification
 
 --
-          - These are `time_t` variables. We can use functions in `time.h` to make sense of them
-          - `ctime( time )`
-            - Returns the time as a string
-            - `time` is type `time_t *`
+      - These are `time_t` variables. We can use functions in `time.h` to make sense of them
+      - `ctime( time )`
+        - Returns the time as a string
+        - `time` is type `time_t *`
 
 ---
 template: main
