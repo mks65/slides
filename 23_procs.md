@@ -78,6 +78,7 @@ template: main
 - `kill(pid, signal)`
   - Returns 0 on success or -1 (`errno`) on failure.
   - Works like the command line `kill` program
+
 --
 
 - `sighandler`
