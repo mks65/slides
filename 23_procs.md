@@ -79,6 +79,7 @@ template: main
   - Returns 0 on success or -1 (`errno`) on failure.
   - Works like the command line `kill` program
 --
+
 - `sighandler`
     - To intercept signals in a c program you must create a signal handling function.
 --
@@ -103,7 +104,7 @@ template: main
   - `signal( SIGNUMBER, sighandler)`
   - Note that you are passing the name of the signal handling function as a parameter.
 - singal/sighandler example:
-  ```
+  ```C
   static void sighandler(int signo) {
   if ( signo == SIGUSR1 )
   printf("Who you talkin to?\n”);
