@@ -83,14 +83,18 @@ template: main
 
 - `sighandler`
     - To intercept signals in a c program you must create a signal handling function.
+
 --
 
   - Some signals (like `SIGKILL`, `SIGSTOP`) cannot be caught.
+
 --
 
   - `static void sighandler( int signo )`
     - Must be `static`, must be `void`, must take a single `int` parameter.
+
 --
+
     - `static`
       - Static values in c exist outside the normal call stack, they can be accessed regardless of the function at the top.
       - For variables, this also means they retain their value even if the function they are declared in has ended.
