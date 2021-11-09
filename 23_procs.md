@@ -95,10 +95,10 @@ template: main
 
 --
 
-    - `static`
-      - Static values in c exist outside the normal call stack, they can be accessed regardless of the function at the top.
-      - For variables, this also means they retain their value even if the function they are declared in has ended.
-      - Static values (variables and functions) can only be accessed from within the file they are declared.
+  - `static`
+    - Static values in c exist outside the normal call stack, they can be accessed regardless of the function at the top.
+    - For variables, this also means they retain their value even if the function they are declared in has ended.
+    - Static values (variables and functions) can only be accessed from within the file they are declared.
 
 ---
 template: main
