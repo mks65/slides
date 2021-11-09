@@ -83,6 +83,7 @@ template: main
 - `sighandler`
     - To intercept signals in a c program you must create a signal handling function.
 --
+
   - Some signals (like `SIGKILL`, `SIGSTOP`) cannot be caught.
 --
 
