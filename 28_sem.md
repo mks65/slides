@@ -60,7 +60,8 @@ __Semaphore operations__
 
 --
 
-- "Traditional Semaphore Usage"
+- Traditional Semaphore Usage
+
   - `Up(S)` \| `V(S)` - _atomic_
     - Release the semaphore to signal you are done with its associated resource
     - Pseudocode
