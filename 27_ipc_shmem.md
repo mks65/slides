@@ -45,7 +45,7 @@ POSIX: A cross-platform specification supported by UNIX operating systems and th
 
 System V: The specification that defines the requirements for an operating system to be considered UNIX.
 
-
+`ipcs` command line utility to see active IPC structures.
 
 ---
 template: main
