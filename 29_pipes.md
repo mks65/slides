@@ -17,13 +17,18 @@ h4 {
 font-size: 1.5em;
 margin: 1px;
 }
+
+center_img {
+  display: block;
+  text-align: center;
+}
 </style>
 
 ---
 template: main
 
 
-.center[![pipe](assets/l29_pipe.jpg)]
+<img src="assets/l29_pipe.jpg" class="center" width="600">
 
 ---
 template: main
