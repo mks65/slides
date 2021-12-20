@@ -73,10 +73,68 @@ template: main
 
 #### Link Layer: A brief history of physical connections
 
-Thicknet
+__Thicknet__
 
-* A single coaxial cable runs along the network.
-* “Vampire taps” cut into the cable and connect to a computer.
+A single coaxial cable runs along the network.
 
-.left[![vtap0](assets/l31_vtap0.png)]
-.right[![vtap0](assets/l31_vtap1.png)]
+“Vampire taps” cut into the cable and connect to a computer.
+
+.left[![vtap0](assets/l31_vtap0.png)] .right[![vtap1](assets/l31_vtap1.png)]
+
+---
+template: main
+
+#### Link Layer: A brief history of physical connections
+
+__Thinnet__
+
+A single coaxial cable runs along the network.
+
+T-Connectors connect computers to the main cable.
+
+.center[![tcon](assets/l31_tconnect.png)]
+
+---
+template: main
+
+#### Link Layer: A brief history of physical connections
+
+__Thin/Thicknet network topology__
+
+.center[![topology](assets/l31_think-thin.png)]
+
+???
+Each new computer degrades the network
+collisions could cause issues
+
+---
+template: main
+
+#### Link Layer: A brief history of physical connections
+
+__Token Ring__
+
+Each computer is connected in a ring to each other.
+
+Only one computer has command of network resources at a time. This is called "having the token”.
+
+The network sends a "token" throughout the ring, which contains the identity of the computer allowed to use the network. All other computers must wait to use the network.
+
+.center[![token](assets/l31_token.png)]
+
+---
+template: main
+
+#### Link Layer: A brief history of physical connections
+
+__Ethernet__
+
+Multiple computers connect to a single hub or switch.
+
+Hub
+* Broadcasts the data to all the computers
+
+Switch
+* Sends data to a specific computer
+
+.center[![token](assets/l31_token.png)]
