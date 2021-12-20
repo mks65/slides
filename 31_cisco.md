@@ -79,7 +79,7 @@ A single coaxial cable runs along the network.
 
 “Vampire taps” cut into the cable and connect to a computer.
 
-.left[![vtap0](assets/l31_vtap0.png)] .right[![vtap1](assets/l31_vtap1.png)]
+![vtap0](assets/l31_vtap0.png)] ![vtap1](assets/l31_vtap1.png)]
 
 ---
 template: main
