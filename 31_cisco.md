@@ -71,7 +71,7 @@ Physical connection
 ---
 template: main
 
-#### Link Layer: A brief history of physical connections
+##### Link Layer: A brief history of physical connections
 
 __Thicknet__
 
@@ -79,12 +79,12 @@ A single coaxial cable runs along the network.
 
 “Vampire taps” cut into the cable and connect to a computer.
 
-![vtap0](assets/l31_vtap0.png)] ![vtap1](assets/l31_vtap1.png)]
+![vtap0](assets/l31_vtap0.png) ![vtap1](assets/l31_vtap1.png)
 
 ---
 template: main
 
-#### Link Layer: A brief history of physical connections
+##### Link Layer: A brief history of physical connections
 
 __Thinnet__
 
@@ -97,7 +97,7 @@ T-Connectors connect computers to the main cable.
 ---
 template: main
 
-#### Link Layer: A brief history of physical connections
+##### Link Layer: A brief history of physical connections
 
 __Thin/Thicknet network topology__
 
@@ -125,7 +125,7 @@ The network sends a "token" throughout the ring, which contains the identity of 
 ---
 template: main
 
-#### Link Layer: A brief history of physical connections
+##### Link Layer: A brief history of physical connections
 
 __Ethernet__
 
