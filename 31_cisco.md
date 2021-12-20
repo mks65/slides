@@ -71,7 +71,7 @@ Physical connection
 ---
 template: main
 
-##### Link Layer: A brief history of physical connections
+__Link Layer: A brief history of physical connections__
 
 __Thicknet__
 
@@ -84,7 +84,7 @@ A single coaxial cable runs along the network.
 ---
 template: main
 
-##### Link Layer: A brief history of physical connections
+__Link Layer: A brief history of physical connections__
 
 __Thinnet__
 
@@ -97,11 +97,11 @@ T-Connectors connect computers to the main cable.
 ---
 template: main
 
-##### Link Layer: A brief history of physical connections
+__Link Layer: A brief history of physical connections__
 
 __Thin/Thicknet network topology__
 
-.center[![topology](assets/l31_think-thin.png)]
+.center[![topology](assets/l31_thick-thin.png)]
 
 ???
 Each new computer degrades the network
@@ -110,7 +110,7 @@ collisions could cause issues
 ---
 template: main
 
-#### Link Layer: A brief history of physical connections
+__Link Layer: A brief history of physical connections__
 
 __Token Ring__
 
@@ -137,4 +137,4 @@ Hub
 Switch
 * Sends data to a specific computer
 
-.center[![token](assets/l31_token.png)]
+.center[![ethernet](assets/l31_ethernet.png)]
