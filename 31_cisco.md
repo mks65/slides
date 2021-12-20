@@ -22,6 +22,11 @@ center_img {
   display: block;
   text-align: center;
 }
+
+.table {
+  border: solid 1px black;
+}
+
 </style>
 
 ---
@@ -148,6 +153,7 @@ In order for data to be sent between computers:
 * The data needs to be sent in a standardized format (Frames).
 
 --
+
 __MAC (Media Access Control) Address__
 
 * 6 - Byte Hex address: `2a:00:1e:b9:70:f6`
@@ -161,6 +167,14 @@ template: main
 __Ethernet Frames__
 
 Each frame has the following format:
+
+<table style="border: solid 1px black">
+<thead>
+<tr>
+<th>prefix</th><th>dest</th>
+</tr>
+</thead>
+</table>
 
 prefix | dest | source | type | data | checksum
 --|--|--|--|--
