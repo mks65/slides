@@ -116,6 +116,11 @@ The network sends a "token" throughout the ring, which contains the identity of 
 
 .center[![token](assets/l31_token.png)]
 
+???
+Each computer provides its own power and keeps single strength constant.
+
+No possibility of collisions
+
 ---
 template: main
 
@@ -128,3 +133,43 @@ Hub: Broadcasts the data to all the computers
 Switch: Sends data to a specific computer
 
 .center[![ethernet](assets/l31_ethernet.png)]
+
+
+---
+template: main
+
+#### Link Layer: The Softer Side
+
+In order for data to be sent between computers:
+
+--
+
+* Each computer needs a unique address (MAC Address).
+* The data needs to be sent in a standardized format (Frames).
+
+--
+__MAC (Media Access Control) Address__
+
+* 6 - Byte Hex address: `2a:00:1e:b9:70:f6`
+* MAC addresses only need to be unique on the same local network.
+
+---
+template: main
+
+#### Link Layer: The Softer Side
+
+__Ethernet Frames__
+
+Each frame has the following format:
+
+prefix | dest | source | type | data | checksum
+--|--|--|--|--
+8B  |   6B  |  6B  |  2B |  4B
+
+prefix dest source type data checksum
+
+
+prefix: 10101010 x7 + 10101011
+dest & source: MAC addresses
+data: MTU (Maximum Transmission Unit) of 1500B
+checksum: ensures data integrity
