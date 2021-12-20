@@ -168,6 +168,21 @@ __Ethernet Frames__
 
 Each frame has the following format:
 
+`prefix` `dest` `source` `type` `data` `checksum`
+
+<hr>
+
+`prefix` 8B: `10101010` x7 + `10101011`
+
+`dest` & `source` 6B each: MAC addresses
+
+`type` 2B
+
+`data`: MTU (Maximum Transmission Unit) of 1500B
+
+`checksum` 4B: ensures data integrity
+
+???
 <table style="border: solid 1px black">
 <thead>
 <tr>
@@ -179,11 +194,3 @@ Each frame has the following format:
 prefix | dest | source | type | data | checksum
 --|--|--|--|--
 8B  |   6B  |  6B  |  2B |  4B
-
-prefix dest source type data checksum
-
-
-prefix: 10101010 x7 + 10101011
-dest & source: MAC addresses
-data: MTU (Maximum Transmission Unit) of 1500B
-checksum: ensures data integrity
