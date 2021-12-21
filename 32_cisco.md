@@ -32,7 +32,7 @@ center_img {
 ---
 template: main
 
-<img src="assets/l32_breakin.jpg" class="center" height="400">
+<img src="assets/l32_breakin.png" class="center" height="400">
 
 ---
 template: main
@@ -106,7 +106,7 @@ Internet layer traffic ignores the specifics of link layer traffic.
 
 Inernet Protocol (IP) covers the standards for addressing and packet format.
 
-<img src="assets/l32_internet.jpg" class="center" width="600">
+<img src="assets/l32_internet.png" class="center" width="600">
 
 ---
 template: main
