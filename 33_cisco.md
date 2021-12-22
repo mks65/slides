@@ -162,8 +162,6 @@ Regulated by the Internet Assigned Numbers Authority (IANA)
 ---
 template: main
 
-#### Transport Layer Protocols
-
 __Transmission Control Protocol (TCP)__
 
 * Reliable connection, guarantees delivery of data.
