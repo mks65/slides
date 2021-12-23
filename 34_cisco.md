@@ -32,7 +32,7 @@ center_img {
 ---
 template: main
 
-.center[![star wars](assets/l34_starwars.jpeg)]
+.center[![star wars](assets/l34_starwars.jpg)]
 
 ---
 template: main
