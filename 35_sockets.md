@@ -82,11 +82,12 @@ template: main
 #### Create a Socket
 
 Functions and strcutres in `sys/socket.h`
+
 `socket( domain, type, protocol )`
 * Creates a socket, opens it like a file, returning a socket descriptor (int that works like a file descriptor)
 * A socket is
 * `domain`: type of address
-  * `AF_INET` or `AF_INET6`
+  * `AF_INET` or `AF_INET6` or `AF_UNSPEC`
 * `type`
   * `SOCK_STREAM` or `SOCK_DGRAM`
 * `protocol`
@@ -110,7 +111,7 @@ template: main
 
 * `service`: String with a port number or service name (if the service is in `/etc/services`)
 * `hints`: Pointer to a `struct addrinfo` used to provide settings for the lookup
-* results: Pointer to a linked list of `struct addrinfo` containing entries for each matching address.
+* `results`: Pointer to a linked list of `struct addrinfo` containing entries for each matching address.
 * `getaddrinfo` will allocate memory for these structs, `freeaddrinfo` will release the entire linked list.
 
 ???
@@ -164,9 +165,10 @@ getaddrinfo(NULL, “80”, hints, &results);  //Server sets node to NULL
 
 //create socket
 int sd = socket(results->ai_family, results->ai_socktype, results->ai_protocol);
-struct addrinfo * hints, * results;
 
 bind(sd, results->ai_addr, results->ai_addrlen);
+
+//DO STUFF
 
 free(hints)
 freeaddrinfo(results);
