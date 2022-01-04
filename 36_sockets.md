@@ -160,7 +160,6 @@ Using connect
 //use getaddrinfo (not shown)
 //create socket
 int sd = socket(results->ai_family, results->ai_socktype, results->ai_protocol);
-struct addrinfo * hints, * results;
 
 connect(sd, results->ai_addr, results->ai_addrlen);
 ```
