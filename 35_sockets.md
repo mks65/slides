@@ -85,7 +85,6 @@ Functions and strcutres in `sys/socket.h`
 
 `socket( domain, type, protocol )`
 * Creates a socket, opens it like a file, returning a socket descriptor (int that works like a file descriptor)
-* A socket is
 * `domain`: type of address
   * `AF_INET` or `AF_INET6` or `AF_UNSPEC`
 * `type`
