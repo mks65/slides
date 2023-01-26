@@ -214,6 +214,11 @@ Inernet Protocol (IP) covers the standards for addressing and packet format.
 
 <img src="assets/l32_internet.png" class="center" width="600">
 
+???
+* Internet maps: https://www.vox.com/a/internet-maps
+* Submarine cable map: https://www.submarinecablemap.com/
+
+
 ---
 template: main
 
